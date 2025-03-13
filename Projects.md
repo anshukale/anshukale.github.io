@@ -4,16 +4,39 @@ title: "Projects"
 permalink: /projects/
 ---
 
-# Featured Projects 🚀
+<style>
+  .project-card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      background: #f9f9f9;
+  }
+  .project-card h3 {
+      margin-top: 0;
+  }
+</style>
 
-## [Amazon Sales Data Analysis](https://github.com/anshukale/Amazon-Sales-Analysis)
-📊 **10,000+ sales records analyzed, increasing lead conversion by 10%**  
-✅ **Used Pandas & Matplotlib** for data cleaning & visualization.  
+# 🚀 **My Projects**  
 
-## [Job Market Insights Web App](https://github.com/anshukale/Job-Insights-Web-App)
-🔍 **Analyzed 250,000+ job postings** to track salary & skill trends.  
-✅ Built using **Streamlit, SQL, and Pandas** for real-time analytics.  
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+  
+  <div class="project-card">
+    <h3><a href="https://github.com/anshukale/Amazon-Sales-Analysis">📊 Amazon Sales Data Analysis</a></h3>
+    <p>✅ Analyzed **10,000+ sales records**, increasing lead conversion by **10%**.</p>
+    <p>✅ Used **Pandas, Matplotlib** for data cleaning & visualization.</p>
+  </div>
 
-## [Adani Project](https://github.com/anshukale/)
-🛠 **Corrosion prediction model** improving transmission tower longevity by 15 years.  
-✅ Leveraged **Python & Cox Proportional Hazard Model** for material degradation analysis.  
+  <div class="project-card">
+    <h3><a href="https://github.com/anshukale/Job-Insights-Web-App">🔍 Job Market Insights Web App</a></h3>
+    <p>✅ Analyzed **250,000+ job postings** to track salary & skill trends.</p>
+    <p>✅ Built using **Streamlit, SQL, Pandas** for real-time analytics.</p>
+  </div>
+
+  <div class="project-card">
+    <h3><a href="https://github.com/anshukale/">🛠 Adani Project</a></h3>
+    <p>✅ Developed a **corrosion prediction model**, improving tower longevity by **15 years**.</p>
+    <p>✅ Used **Python, Cox Proportional Hazard Model** for analysis.</p>
+  </div>
+
+</div>
