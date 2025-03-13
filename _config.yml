@@ -28,7 +28,7 @@ navbar-links:
 
 # Profile image in the navbar (Upload your own image in `/assets/img/`)
 avatar: "/assets/img/Profile.jpg"
-# round-avatar: true  # Keeps profile image circular
+round-avatar: true  # Keeps profile image circular
 
 # If you have a banner background, upload it to `/assets/img/`
 banner: "/assets/img/banner.jpg"
